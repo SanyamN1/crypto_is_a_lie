@@ -26,11 +26,11 @@
 ## 🧪 Sample Usage
 
 ```bash
-$ python3 crypto_analyzer.py -i input.txt
+$ python3 analyze.py -i input.txt
 OR
-$ python3 crypto_analyzer.py -s "Uryyb Jbeyq!"
+$ python3 analyze.py -s "Uryyb Jbeyq!"
 OR with brute force
-$ python3 crypto_analyzer.py -s "Uryyb Jbeyq!" --brute
+$ python3 analyze.py -s "Uryyb Jbeyq!" --brute
 Analyze everything, dump results to a file:
-$ python3 crypto_analyzer.py -i input.txt -o results.txt --all
+$ python3 analyze.py -i input.txt -o results.txt --all
 
